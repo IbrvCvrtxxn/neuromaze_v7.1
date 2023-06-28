@@ -21,6 +21,8 @@ public class EnemyHealthSystem : MonoBehaviour
     private GameObject droppedObject; // Reference to the dropped object
     private bool hasPlayedDeathSound = false; // Flag indicating if the death sound has been played
 
+    public GameObject monster;
+
     void Start()
     {
         currentHealth = maxHealth;
@@ -44,6 +46,7 @@ public class EnemyHealthSystem : MonoBehaviour
         if (currentHealth <= 0)
         {
             Die();
+            monster.SetActive(false);
         }
     }
 
