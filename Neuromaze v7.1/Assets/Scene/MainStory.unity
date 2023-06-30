@@ -287,6 +287,7 @@ GameObject:
   - component: {fileID: 97508959}
   - component: {fileID: 97508961}
   - component: {fileID: 97508960}
+  - component: {fileID: 97508962}
   m_Layer: 5
   m_Name: TextStoryline
   m_TagString: Untagged
@@ -359,6 +360,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 97508958}
   m_CullTransparentMesh: 1
+--- !u!114 &97508962
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 97508958}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5eed3bc8a82704c4ab6c0990363ff347, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  typingSpeed: 0.05
+  fullText: "I almost lost track of time I need to check the date and time. Oh, yeah,
+    it\u2019s already 29.05.2002 23:51. God, I even don\u2019t remember when the
+    last time was outside, but it\u2019s not important.  What is important is the
+    work I have done during this period, and it's worth everything."
 --- !u!1 &126428024
 GameObject:
   m_ObjectHideFlags: 0
@@ -1860,6 +1878,7 @@ GameObject:
   - component: {fileID: 938335254}
   - component: {fileID: 938335256}
   - component: {fileID: 938335255}
+  - component: {fileID: 938335257}
   m_Layer: 5
   m_Name: IntroVideoTextStoryline
   m_TagString: Untagged
@@ -1931,6 +1950,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 938335253}
   m_CullTransparentMesh: 1
+--- !u!114 &938335257
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 938335253}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5eed3bc8a82704c4ab6c0990363ff347, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  typingSpeed: 0.05
+  fullText: "So\u2026I hope it\u2019s recording. Today, I\u2019m going to reveal
+    everything. You have no idea how long I have been looking forward to these days.
+    Finally, I may share with the world the success I have achieved after all this
+    time."
 --- !u!1 &1123963900
 GameObject:
   m_ObjectHideFlags: 0
@@ -1942,6 +1978,7 @@ GameObject:
   - component: {fileID: 1123963901}
   - component: {fileID: 1123963903}
   - component: {fileID: 1123963902}
+  - component: {fileID: 1123963904}
   m_Layer: 5
   m_Name: TextStoryline
   m_TagString: Untagged
@@ -2013,6 +2050,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1123963900}
   m_CullTransparentMesh: 1
+--- !u!114 &1123963904
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1123963900}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5eed3bc8a82704c4ab6c0990363ff347, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  typingSpeed: 0.04
+  fullText: So, it's done. For the final phase, I prepared a helmet that contains
+    all uploading information. Now, if my adjustments was correct I'm going to put
+    this helmet on and start transmission.
 --- !u!1 &1129515636
 GameObject:
   m_ObjectHideFlags: 0
@@ -2188,6 +2241,7 @@ GameObject:
   - component: {fileID: 1240172011}
   - component: {fileID: 1240172013}
   - component: {fileID: 1240172012}
+  - component: {fileID: 1240172014}
   m_Layer: 5
   m_Name: TextStoryline
   m_TagString: Untagged
@@ -2261,6 +2315,24 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1240172010}
   m_CullTransparentMesh: 1
+--- !u!114 &1240172014
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1240172010}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5eed3bc8a82704c4ab6c0990363ff347, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  typingSpeed: 0.05
+  fullText: It began many years ago. I was obsessed with the idea of transmitting
+    my brain to the machine I have created, all my memories, feelings, and emotions
+    will be inside this robot. My work can be revolutionary for the whole world.
+    Just imagine that humanity will refuse food, water, everything!  We will basically
+    become immortal.
 --- !u!1 &1263932785
 GameObject:
   m_ObjectHideFlags: 0
@@ -2666,6 +2738,7 @@ GameObject:
   - component: {fileID: 1447990121}
   - component: {fileID: 1447990123}
   - component: {fileID: 1447990122}
+  - component: {fileID: 1447990124}
   m_Layer: 5
   m_Name: TextStoryline
   m_TagString: Untagged
@@ -2735,6 +2808,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1447990120}
   m_CullTransparentMesh: 1
+--- !u!114 &1447990124
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1447990120}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5eed3bc8a82704c4ab6c0990363ff347, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  typingSpeed: 0.04
+  fullText: Stop, something is wrong. What is going on?
 --- !u!1 &1468745357
 GameObject:
   m_ObjectHideFlags: 0
@@ -2826,6 +2913,7 @@ GameObject:
   - component: {fileID: 1571015536}
   - component: {fileID: 1571015538}
   - component: {fileID: 1571015537}
+  - component: {fileID: 1571015539}
   m_Layer: 5
   m_Name: TextStoryline
   m_TagString: Untagged
@@ -2896,6 +2984,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1571015535}
   m_CullTransparentMesh: 1
+--- !u!114 &1571015539
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1571015535}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5eed3bc8a82704c4ab6c0990363ff347, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  typingSpeed: 0.05
+  fullText: Okay, it doesn't matter now. Let's get back to our work. Everything is
+    ready, we can launch the program.
 --- !u!1 &1571596008
 GameObject:
   m_ObjectHideFlags: 0
@@ -2907,6 +3010,7 @@ GameObject:
   - component: {fileID: 1571596009}
   - component: {fileID: 1571596011}
   - component: {fileID: 1571596010}
+  - component: {fileID: 1571596012}
   m_Layer: 5
   m_Name: TextStoryline
   m_TagString: Untagged
@@ -2977,6 +3081,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1571596008}
   m_CullTransparentMesh: 1
+--- !u!114 &1571596012
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1571596008}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5eed3bc8a82704c4ab6c0990363ff347, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  typingSpeed: 0.04
+  fullText: Oh, yeeeaaah, it's working. I feel so excited and free. I will prove
+    to everyone that I was right.
 --- !u!1 &1591985729
 GameObject:
   m_ObjectHideFlags: 0
@@ -3634,6 +3753,7 @@ GameObject:
   - component: {fileID: 1932846422}
   - component: {fileID: 1932846424}
   - component: {fileID: 1932846423}
+  - component: {fileID: 1932846425}
   m_Layer: 5
   m_Name: TextStoryline
   m_TagString: Untagged
@@ -3706,6 +3826,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1932846421}
   m_CullTransparentMesh: 1
+--- !u!114 &1932846425
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1932846421}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5eed3bc8a82704c4ab6c0990363ff347, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  typingSpeed: 0.05
+  fullText: I failed so many times, people thought I was a mad scientist, my family
+    left me, my friends stopped talking to me, I got fired from my job, I was all
+    alone. But I knew that the day I finish this, I'll get it all back. And everyone
+    will regret that they left me then.
 --- !u!1 &1995921095
 GameObject:
   m_ObjectHideFlags: 0
@@ -3744,8 +3881,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -137, y: 995}
-  m_SizeDelta: {x: 300, y: 50}
+  m_AnchoredPosition: {x: -142.5, y: 995}
+  m_SizeDelta: {x: 285, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1995921097
 MonoBehaviour:
