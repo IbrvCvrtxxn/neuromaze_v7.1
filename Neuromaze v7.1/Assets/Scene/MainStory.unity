@@ -372,7 +372,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5eed3bc8a82704c4ab6c0990363ff347, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  typingSpeed: 0.05
+  typingSpeed: 0.08
   fullText: "I almost lost track of time I need to check the date and time. Oh, yeah,
     it\u2019s already 29.05.2002 23:51. God, I even don\u2019t remember when the
     last time was outside, but it\u2019s not important.  What is important is the
@@ -1160,7 +1160,7 @@ GameObject:
   - component: {fileID: 517385837}
   - component: {fileID: 517385836}
   m_Layer: 0
-  m_Name: IntroVideo
+  m_Name: TransitionVideo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1178,7 +1178,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.5
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -1304,13 +1304,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 517385835}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -960, y: -540, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_Father: {fileID: 1847048331}
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &691100533
 GameObject:
@@ -1962,7 +1962,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5eed3bc8a82704c4ab6c0990363ff347, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  typingSpeed: 0.05
+  typingSpeed: 0.08
   fullText: "So\u2026I hope it\u2019s recording. Today, I\u2019m going to reveal
     everything. You have no idea how long I have been looking forward to these days.
     Finally, I may share with the world the success I have achieved after all this
@@ -2062,7 +2062,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5eed3bc8a82704c4ab6c0990363ff347, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  typingSpeed: 0.04
+  typingSpeed: 0.07
   fullText: So, it's done. For the final phase, I prepared a helmet that contains
     all uploading information. Now, if my adjustments was correct I'm going to put
     this helmet on and start transmission.
@@ -2327,7 +2327,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5eed3bc8a82704c4ab6c0990363ff347, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  typingSpeed: 0.05
+  typingSpeed: 0.07
   fullText: It began many years ago. I was obsessed with the idea of transmitting
     my brain to the machine I have created, all my memories, feelings, and emotions
     will be inside this robot. My work can be revolutionary for the whole world.
@@ -2820,7 +2820,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5eed3bc8a82704c4ab6c0990363ff347, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  typingSpeed: 0.04
+  typingSpeed: 0.07
   fullText: Stop, something is wrong. What is going on?
 --- !u!1 &1468745357
 GameObject:
@@ -2996,7 +2996,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5eed3bc8a82704c4ab6c0990363ff347, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  typingSpeed: 0.05
+  typingSpeed: 0.07
   fullText: Okay, it doesn't matter now. Let's get back to our work. Everything is
     ready, we can launch the program.
 --- !u!1 &1571596008
@@ -3093,7 +3093,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5eed3bc8a82704c4ab6c0990363ff347, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  typingSpeed: 0.04
+  typingSpeed: 0.07
   fullText: Oh, yeeeaaah, it's working. I feel so excited and free. I will prove
     to everyone that I was right.
 --- !u!1 &1591985729
@@ -3632,10 +3632,30 @@ PlayableDirector:
     value: {fileID: 517385835}
   - key: {fileID: -5978820895875850220, guid: 766af6819fd33ba43b5028d8939f76e0, type: 2}
     value: {fileID: 0}
-  - key: {fileID: -8041013199597922777, guid: 766af6819fd33ba43b5028d8939f76e0, type: 2}
-    value: {fileID: 0}
   - key: {fileID: 2532452129197671224, guid: 766af6819fd33ba43b5028d8939f76e0, type: 2}
     value: {fileID: 481154145}
+  - key: {fileID: -7159753105186517450, guid: 766af6819fd33ba43b5028d8939f76e0, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: 1815087274686403922, guid: 766af6819fd33ba43b5028d8939f76e0, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: -2172212914603699501, guid: 766af6819fd33ba43b5028d8939f76e0, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: 7092627357639412839, guid: 766af6819fd33ba43b5028d8939f76e0, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: -4813572872893056859, guid: 766af6819fd33ba43b5028d8939f76e0, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: 6490599679717361406, guid: 766af6819fd33ba43b5028d8939f76e0, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: -6502926159248720089, guid: 766af6819fd33ba43b5028d8939f76e0, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: 5079999204761088960, guid: 766af6819fd33ba43b5028d8939f76e0, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: -487421982349505072, guid: 766af6819fd33ba43b5028d8939f76e0, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: 7997533326455891436, guid: 766af6819fd33ba43b5028d8939f76e0, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: -646187498433032690, guid: 766af6819fd33ba43b5028d8939f76e0, type: 2}
+    value: {fileID: 0}
   m_ExposedReferences:
     m_References: []
 --- !u!114 &1847048328
@@ -3733,6 +3753,7 @@ RectTransform:
   - {fileID: 298114180}
   - {fileID: 831332623}
   - {fileID: 481154148}
+  - {fileID: 517385838}
   - {fileID: 1995921096}
   m_Father: {fileID: 0}
   m_RootOrder: 2
@@ -3838,7 +3859,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5eed3bc8a82704c4ab6c0990363ff347, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  typingSpeed: 0.05
+  typingSpeed: 0.07
   fullText: I failed so many times, people thought I was a mad scientist, my family
     left me, my friends stopped talking to me, I got fired from my job, I was all
     alone. But I knew that the day I finish this, I'll get it all back. And everyone
@@ -3877,7 +3898,7 @@ RectTransform:
   m_Children:
   - {fileID: 263553972}
   m_Father: {fileID: 1847048331}
-  m_RootOrder: 22
+  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
