@@ -10,7 +10,21 @@ public class PlayerLook : MonoBehaviour
     public float xSensitivity = 100f;
     public float ySensitivity = 100f;
     
-   public void ProcessLook(Vector2 input)
+
+    private void Start()
+    {
+        Cursor.visible = false;
+    }
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Cursor.visible = !Cursor.visible;
+        }
+    }
+
+    public void ProcessLook(Vector2 input)
     {
         float mouseX = input.x;
         float mouseY = input.y;
