@@ -317,7 +317,7 @@ MonoBehaviour:
   m_Clips:
   - m_Version: 1
     m_Start: 15
-    m_ClipIn: 0
+    m_ClipIn: 0.16666666666666607
     m_Asset: {fileID: -4500457109717418956}
     m_Duration: 13
     m_TimeScale: 1
