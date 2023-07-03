@@ -103,6 +103,8 @@ public class PlayerMotor : MonoBehaviour
     private float crouchTimer;
     private bool crouching;
 
+    public CameraShake cameraShake;
+
     void Start()
     {
         controller = GetComponent<CharacterController>();
@@ -133,6 +135,7 @@ public class PlayerMotor : MonoBehaviour
         if (Input.GetKey(KeyCode.LeftShift))
         {
             Sprint();
+            StartCoroutine(cameraShake.Shake(.07f, .07f));
         }
         else
         {
