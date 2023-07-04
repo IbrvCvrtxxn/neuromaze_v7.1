@@ -5,9 +5,12 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 
-public class RestartGameButton : MonoBehaviour
+public class GameOverMenu : MonoBehaviour
 
 {
+
+    int savedScene;
+    int sceneIndex;
     
     public void Restart()
     {
@@ -15,9 +18,11 @@ public class RestartGameButton : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
-    public void NextGame()
+    public void QuitGame()
     {
-        Time.timeScale = 1f;
-        SceneManager.LoadScene("GameLevelTwo");
+        sceneIndex = SceneManager.GetActiveScene().buildIndex;
+        PlayerPrefs.SetInt("Saved", sceneIndex);
+        PlayerPrefs.Save();
+        SceneManager.LoadSceneAsync(0);
     }
 }
