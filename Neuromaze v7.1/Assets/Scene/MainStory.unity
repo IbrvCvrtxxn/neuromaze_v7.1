@@ -864,7 +864,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: dedb499c267c4794b9794c09dcfb0dd0, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 01170b086496b7747ab0ebb4c76a9ed9, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1350,7 +1350,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: dedb499c267c4794b9794c09dcfb0dd0, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 00067ebe75c02b842ad86c5b2227834f, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1590,7 +1590,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: dedb499c267c4794b9794c09dcfb0dd0, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 00067ebe75c02b842ad86c5b2227834f, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2062,7 +2062,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5eed3bc8a82704c4ab6c0990363ff347, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  typingSpeed: 0.07
+  typingSpeed: 0.08
   fullText: So, it's done. For the final phase, I prepared a helmet that contains
     all uploading information. Now, if my adjustments was correct I'm going to put
     this helmet on and start transmission.
@@ -2304,7 +2304,7 @@ MonoBehaviour:
     m_LineSpacing: 1.3
   m_Text: "It began many years ago. I was obsessed with the idea of transmitting
     my brain to the machine I have created, all my memories, feelings, and emotions
-    will be inside this robot. My work can be revolutionary for the whole world.
+    will be inside of this robot. My work can be revolutionary for the whole world.
     Just imagine that humanity will refuse food, water, everything! \nWe will basically
     become immortal."
 --- !u!222 &1240172013
@@ -2327,10 +2327,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5eed3bc8a82704c4ab6c0990363ff347, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  typingSpeed: 0.07
+  typingSpeed: 0.06
   fullText: It began many years ago. I was obsessed with the idea of transmitting
     my brain to the machine I have created, all my memories, feelings, and emotions
-    will be inside this robot. My work can be revolutionary for the whole world.
+    will be inside of this robot. My work can be revolutionary for the whole world.
     Just imagine that humanity will refuse food, water, everything!  We will basically
     become immortal.
 --- !u!1 &1263932785
@@ -3656,6 +3656,8 @@ PlayableDirector:
     value: {fileID: 0}
   - key: {fileID: -646187498433032690, guid: 766af6819fd33ba43b5028d8939f76e0, type: 2}
     value: {fileID: 0}
+  - key: {fileID: 6792552070053487098, guid: 766af6819fd33ba43b5028d8939f76e0, type: 2}
+    value: {fileID: 0}
   m_ExposedReferences:
     m_References: []
 --- !u!114 &1847048328
@@ -3859,7 +3861,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5eed3bc8a82704c4ab6c0990363ff347, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  typingSpeed: 0.07
+  typingSpeed: 0.06
   fullText: I failed so many times, people thought I was a mad scientist, my family
     left me, my friends stopped talking to me, I got fired from my job, I was all
     alone. But I knew that the day I finish this, I'll get it all back. And everyone
