@@ -4,6 +4,7 @@ using UnityEngine.UI;
 public class IngameStoryTrigger : MonoBehaviour
 {
     public Canvas canvas;
+    public Canvas canvasToDeactivate;
     public float activationDuration = 5f;
 
     private bool isTriggered = false;
@@ -28,6 +29,7 @@ public class IngameStoryTrigger : MonoBehaviour
         if (other.CompareTag("Player") && !isTriggered && !isCanvasActive)
         {
             ActivateCanvas();
+            canvasToDeactivate.enabled = false;
         }
     }
 
