@@ -7,8 +7,8 @@ public class NewBehaviourScript : MonoBehaviour
 {
    
    private Animator animator;
-    private float lastClickTime;
-    private float animationSpeed = 5.0f;
+    //private float lastClickTime;
+ //   private float animationSpeed = 5.0f;
     
     private void Start()
     {
@@ -19,10 +19,10 @@ public class NewBehaviourScript : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
-            float timeSinceLastClick = Time.time - lastClickTime;
-            animationSpeed = Mathf.Clamp(1f / timeSinceLastClick, 1f, 10f);
+          //  float timeSinceLastClick = Time.time - lastClickTime;
+          //  animationSpeed = Mathf.Clamp(1f / timeSinceLastClick, 1f, 10f);
             PlayAttackAnimation();
-            lastClickTime = Time.time;
+           // lastClickTime = Time.time;
             
         }
     }
@@ -31,9 +31,9 @@ public class NewBehaviourScript : MonoBehaviour
     {
         
             
-            animator.SetFloat("AttackSpeed", animationSpeed);
+      //      animator.SetFloat("AttackSpeed", animationSpeed);
         animator.SetTrigger("PlayAnimation");
-            
+            Debug.Log("First Animation Played");
         
     }
 }
