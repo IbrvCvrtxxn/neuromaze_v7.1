@@ -7,7 +7,6 @@ public class ChapterOneToTwo : MonoBehaviour
 {
     void OnEnable() 
     {
-        // temporarily will upload first game level
-        SceneManager.LoadScene("GameLevelOne", LoadSceneMode.Single);
+        SceneManager.LoadScene("GameLevelTwo", LoadSceneMode.Single);
     }
 }
