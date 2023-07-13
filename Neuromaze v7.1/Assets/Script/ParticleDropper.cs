@@ -42,6 +42,16 @@ public class ParticleDropper : MonoBehaviour
         {
             StopDropping();
         }
+
+        if (Input.GetKeyDown(KeyCode.S))
+        {
+            StartDropping();
+        }
+
+        if (Input.GetKeyUp(KeyCode.S))
+        {
+            StopDropping();
+        }
     }
 
     private void StartDropping()
