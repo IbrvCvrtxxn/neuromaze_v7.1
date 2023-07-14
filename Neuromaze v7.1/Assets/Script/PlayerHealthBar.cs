@@ -99,10 +99,10 @@ public class PlayerHealthBar : MonoBehaviour
 
     private void Update()
     {
-        // if (Input.GetKeyDown(KeyCode.F2))
-        // {
-        //     TakeDamage(5);
-        // }
+        if (Input.GetKeyDown(KeyCode.F2))
+        {
+            TakeDamage(30);
+        }
         
         // if (Input.GetKeyDown(KeyCode.F3))
         // {

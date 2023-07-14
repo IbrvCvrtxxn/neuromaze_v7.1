@@ -291,8 +291,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -331}
-  m_SizeDelta: {x: 0, y: -809.1581}
+  m_AnchoredPosition: {x: 0, y: -813.21045}
+  m_SizeDelta: {x: 0, y: -1773.5791}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &288805331
 GameObject:
@@ -636,8 +636,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -331}
-  m_SizeDelta: {x: 0, y: -809.1581}
+  m_AnchoredPosition: {x: 0, y: -813.21045}
+  m_SizeDelta: {x: 0, y: -1773.5791}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1452052266
 GameObject:
@@ -674,8 +674,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -665, y: 312}
-  m_SizeDelta: {x: -1635.8857, y: 50}
+  m_AnchoredPosition: {x: -1201, y: 362}
+  m_SizeDelta: {x: -3339.0466, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1452052268
 MonoBehaviour:
@@ -699,7 +699,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: d9fde110be4d45841a0e61154fca9379, type: 3}
-    m_FontSize: 25
+    m_FontSize: 35
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
@@ -815,8 +815,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -331}
-  m_SizeDelta: {x: 0, y: -809.1581}
+  m_AnchoredPosition: {x: 0, y: -813.21045}
+  m_SizeDelta: {x: 0, y: -1773.5791}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1512043370
 GameObject:
@@ -879,7 +879,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: d9fde110be4d45841a0e61154fca9379, type: 3}
-    m_FontSize: 35
+    m_FontSize: 50
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -976,7 +976,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: d9fde110be4d45841a0e61154fca9379, type: 3}
-    m_FontSize: 35
+    m_FontSize: 50
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -1225,7 +1225,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: d9fde110be4d45841a0e61154fca9379, type: 3}
-    m_FontSize: 35
+    m_FontSize: 50
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
