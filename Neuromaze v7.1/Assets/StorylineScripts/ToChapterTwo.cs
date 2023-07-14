@@ -7,8 +7,6 @@ public class ToChapterTwo : MonoBehaviour
 {
     void OnEnable() 
     {
-        // temporarily will upload first game level
         SceneManager.LoadScene("ToChapterTwo", LoadSceneMode.Single);
-        //Cursor.visible = true;
     }
 }
